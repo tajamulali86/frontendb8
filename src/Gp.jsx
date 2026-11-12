@@ -6,7 +6,7 @@ const Gp = () => {
     let {setText} =useContext(TextContext)
     setText('tajamul')
   return (
-    <div>Gp
+    <div>Gp d
         <Parent/>
     </div>
   )
