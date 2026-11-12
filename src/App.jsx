@@ -32,7 +32,7 @@ function App() {
           <Gp />
           <Header />
           <Signin />
-          <h1 ref={ref}>Hello</h1>
+          <h1 ref={ref}>Bye</h1>
           <button onClick={() => ref.current.textContent = 'Bye'}>click Me</button>
           <Form formData={formData} setForm={setForm} setData={setData} data={data} />
           <Show data={data} setData={setData} />
